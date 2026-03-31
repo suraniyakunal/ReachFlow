@@ -1,0 +1,4 @@
+# Ignore local database files
+backend/data/db/
+*.log
+
