@@ -1,4 +1,26 @@
-# Ignore local database files
+# Dependency directories
+node_modules/
+
+# Secrets and environment variables
+.env
+.env.local
+*.pem
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Database files (from your previous issue)
 backend/data/db/
+*.sqlite
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+npm-debug.log*
 
